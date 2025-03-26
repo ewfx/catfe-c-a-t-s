@@ -15,6 +15,7 @@
 
 ## 🎯 Introduction
 A brief overview of your project and its purpose. Mention which problem statement are your attempting to solve. Keep it concise and engaging.
+AI-Powered Context-Aware Testing System for Financial Ecosystems . This tool would automate test cases generation and update that in case of any new feature enhancement will happen in application.
 
 ## 🎥 Demo
 🔗 [Live Demo](#) (if applicable)  
@@ -25,15 +26,23 @@ A brief overview of your project and its purpose. Mention which problem statemen
 
 ## 💡 Inspiration
 What inspired you to create this project? Describe the problem you're solving.
+Earlier manuall effort was more but this tool will reduce manual intervention , ensure test relevance and efficiency.
 
 ## ⚙️ What It Does
 Explain the key features and functionalities of your project.
+Reads input test cases, Generates BDD scenarios dynamically, Monitors system changes,Updates existing test cases accordingly
+
+
+
+
 
 ## 🛠️ How We Built It
 Briefly outline the technologies, frameworks, and tools used in development.
+Python, LangchainOpenAI
 
 ## 🚧 Challenges We Faced
 Describe the major technical or non-technical challenges your team encountered.
+Reading test case data correctly 
 
 ## 🏃 How to Run
 1. Clone the repository  
@@ -46,7 +55,7 @@ Describe the major technical or non-technical challenges your team encountered.
    ```
 3. Run the project  
    ```sh
-   npm start  # or python app.py
+   python src/main.py
    ```
 
 ## 🏗️ Tech Stack
