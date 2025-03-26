@@ -1,0 +1,8 @@
+numpy
+openpyxl>=2.6.2
+python-dateutil
+ruamel.yaml
+openai==0.28
+PyYAML
+fastapi
+uvicorn
